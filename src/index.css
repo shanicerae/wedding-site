@@ -26,6 +26,12 @@ code {
   color: var(--dark-blue);
 }
 
+img {
+  border: 1px solid var(--dark-blue);
+  width: 70%;
+  padding: 20px;
+}
+
 .nav-bar {
   padding: 20px 0;
 }
