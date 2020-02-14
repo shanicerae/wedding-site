@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="dark-blue nav-bar center">
+    <header className="nav-bar center sticky-top dark-blue">
       <ul>
         <li className="nav-bar-item">
           <NavLink to="/">Home</NavLink>
