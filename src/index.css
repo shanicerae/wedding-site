@@ -114,4 +114,5 @@ header ul li a:hover:after {
   text-align: center;
   border: 1px solid var(--dark-blue);
   margin: 30px;
+  padding: 15px;
 }
