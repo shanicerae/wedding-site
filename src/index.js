@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import Info from './Info.js'
 import Rsvp from './Rsvp.js'
-import Photos from './Photos.js'
+import Vancouver from './Vancouver.js'
 import Registry from './Registry.js'
 import Header from './Header.js'
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
@@ -17,7 +17,7 @@ const routing = (
     <Switch>
       <Route path="/info"><Info/></Route>
       <Route path="/rsvp" component={Rsvp} />
-      <Route path="/photos" component={Photos} />
+      <Route path="/vancouver" component={Vancouver} />
       <Route path="/registry" component={Registry} />
       <Route path="/" component={App} />
       {/* <Route component={Notfound} /> TODO: Redirect to App */}

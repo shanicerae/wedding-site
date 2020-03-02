@@ -1,4 +1,23 @@
 /* Insert fonts: Thank you, Raustila, Shree Devanagari 714, Playfair Display */
+@font-face {
+  font-family: 'Raustila';
+  src: url('fonts/raustila-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Shree';
+  src: url('fonts/Shree-Devanagari-714.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayfairDisplay.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Thank You';
+  src: url('fonts/Thank-you.ttf')  format('truetype');
+}
 
 body {
   margin: 0;
@@ -34,21 +53,28 @@ a:link,a:visited,a:active.dark-blue {
   color: var(--dark-blue);
 }
 
-img {
-  border: 1px solid var(--dark-blue);
-  width: 70%;
-  padding: 20px;
+a:hover.dark-blue {
+  color: var(--blush);
+  text-decoration: none;
+}
+
+.header-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .nav-bar {
+  font-family: 'Shree';
   background-color: white;
   border-bottom: 1px solid var(--dark-blue);
-  padding: 20px 0;
 }
 
 .nav-bar-item {
   display: inline;
-  padding: 40px;
+  padding: 0 40px;
+  text-transform: uppercase;
 }
 
 a {
@@ -58,36 +84,18 @@ a {
   padding: 10px 0;
 }
 
-a:active {
-  color: var(--light-blue);
-}
-
-header ul li a {
-  position: relative;
-}
-
-header ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: var(--dark-blue);
-  height: 1px;
-}
-
-header ul li a:hover:after {
-  width: 100%;
+.header-names {
+  font-family: 'Raustila';
+  font-size: 40px;
+  margin: 15px auto;
 }
 
 .colour {
-  height: 25px;
-  width: 25px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   display: inline-block;
+  margin: 5px;
 }
 
 .blush {
@@ -111,8 +119,30 @@ header ul li a:hover:after {
 }
 
 .content-wrapper {
+  font-family: 'Shree';
+  color: var(--dark-blue);
   text-align: center;
-  border: 1px solid var(--dark-blue);
-  margin: 30px;
+  /* width: 600px; */
+  /* border: 1px solid var(--dark-blue); */
+  margin: 20px auto;
   padding: 15px;
+}
+
+.content-title {
+  font-family: 'Playfair Display', sans-serif;
+  padding-bottom: 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.directions-link {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.registry-button {
+  border: 1px solid var(--dark-blue);
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
 }

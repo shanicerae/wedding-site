@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+function Vancouver() {
   return (
-    <div className="App">
+    <div>
       <img src="https://i.imgur.com/HkPmbb1.jpg" className="header-image" alt="engagement" />
+      <h2 className="content-title center dark-blue">What To Do In Vancouver</h2>
     </div>
   );
 }
 
-export default App;
+export default Vancouver;

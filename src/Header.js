@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <header className="nav-bar center sticky-top dark-blue">
+      <p className="header-names">J + S</p>
       <ul>
         <li className="nav-bar-item">
           <NavLink to="/">Home</NavLink>
@@ -16,7 +17,7 @@ function Header() {
           <NavLink to="/rsvp">RSVP</NavLink>
         </li>
         <li className="nav-bar-item">
-          <NavLink to="/photos">Photos</NavLink>
+          <NavLink to="/vancouver">Vancouver</NavLink>
         </li>
         <li className="nav-bar-item">
           <NavLink to="/registry">Registry</NavLink>
