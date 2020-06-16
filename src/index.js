@@ -13,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const routing = (
   <Router>
+    <div class="wrapper">
     <Header />
     <Switch>
       <Route path="/info"><Info/></Route>
@@ -22,6 +23,7 @@ const routing = (
       <Route path="/" component={App} />
       {/* <Route component={Notfound} /> TODO: Redirect to App */}
     </Switch>
+    </div>
 </Router>
 )
 

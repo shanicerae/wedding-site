@@ -34,7 +34,7 @@ code {
 }
 
 :root {
-  --light-blue: rgb(227,242,253);
+  --light-blue: rgb(208, 235, 255);
   --dark-blue: rgb(1, 62, 166);
   --blush: rgb(250, 229, 227);
   --green: rgb(50, 104, 14);
@@ -63,6 +63,20 @@ a:hover.dark-blue {
   height: 400px;
   object-fit: cover;
   object-position: top;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.banner {
+  background-color: var(--light-blue);
+  color: white;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 25px;
+  margin: auto;
 }
 
 .nav-bar {
