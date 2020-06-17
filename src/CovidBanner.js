@@ -3,7 +3,7 @@ import './App.css';
 
 function CovidBanner() {
   return (
-    <div className="banner center">
+    <div className="banner center section">
       <p>
         Out of an abundance of caution for the health and safety of our loved ones,
         we have made the difficult decision to adjust our wedding plans.

@@ -136,6 +136,10 @@ a {
   background-color: var(--green);
 }
 
+.section {
+  margin: 20px auto;
+}
+
 .content-wrapper {
   font-family: 'Shree';
   color: var(--dark-blue);
