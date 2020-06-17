@@ -89,10 +89,38 @@ a:hover.dark-blue {
   background-color: white;
 }
 
+.main-nav {
+  display: none;
+}
+
 .nav-bar-item {
   display: inline;
   padding: 0 40px;
   text-transform: uppercase;
+}
+
+.mobile-nav {
+  position: fixed;
+  z-index: 1030;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 20%;
+  height: 100vh;
+}
+
+.open {
+  display: block !important;
+}
+
+.mobile-nav-icon--bar {
+  width: 100%;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.mobile-nav-icon {
+  
 }
 
 a {
@@ -167,4 +195,14 @@ a {
   width: 300px;
   padding: 10px;
   margin: 20px;
+}
+
+@media (min-width: 40rem) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .nav-bar {
+    display: block;
+  }
 }
