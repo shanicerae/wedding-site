@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const routing = (
   <Router>
-    <div class="wrapper">
+    <div className="wrapper">
       <Header />
       <CovidBanner />
       <Switch>
