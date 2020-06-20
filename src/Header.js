@@ -32,7 +32,7 @@ function Header() {
   return (
     <div>
       <div className="backdrop" onClick={closeMobileNav}></div>
-      <header className="nav-bar center sticky-top dark-blue">
+      <header className="nav-bar center dark-blue">
         <img src={Monogram} className="nav-bar--monogram" alt="J + S" />
         <div className="mobile-nav-icon--bar">
           <img

@@ -91,18 +91,26 @@ a:hover.dark-blue {
 }
 
 .banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: var(--light-blue);
   color: white;
   font-family: 'Shree';
   font-weight: 900;
   font-size: 16px;
-  padding: 25px;
-  margin: auto;
+  padding: 20px;
+}
+
+.banner p {
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bar {
   font-family: 'Shree';
   background-color: white;
+  padding-top: 80px;
 }
 
 .main-nav {

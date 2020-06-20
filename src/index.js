@@ -14,9 +14,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const routing = (
   <Router>
+    <CovidBanner />
     <div className="wrapper">
       <Header />
-      <CovidBanner />
       <Switch>
         <Route path="/info"><Info/></Route>
         <Route path="/rsvp" component={Rsvp} />
