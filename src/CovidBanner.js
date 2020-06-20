@@ -29,7 +29,7 @@ function CovidBanner() {
         </div>
       ) : (
         <div>
-          <p> A COVID-19 update from the couple </p>
+          <p className="banner-text--alert"> A COVID-19 update from the couple </p>
           <p onClick={() => setIsExpanded(!isExpanded)}>⬇️</p>
         </div>
       )}
