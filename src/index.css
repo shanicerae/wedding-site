@@ -33,12 +33,28 @@ code {
     monospace;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 :root {
-  --light-blue: rgb(227,242,253);
+  --light-blue: rgb(208, 235, 255);
   --dark-blue: rgb(1, 62, 166);
   --blush: rgb(250, 229, 227);
   --green: rgb(50, 104, 14);
   --white: rgb(253, 253, 253);
+}
+
+.backdrop {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 1030;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .center {
@@ -47,6 +63,10 @@ code {
 
 .dark-blue {
   color: var(--dark-blue);
+}
+
+hr.dark-blue {
+  border-color: var(--dark-blue);
 }
 
 a:link,a:visited,a:active.dark-blue {
@@ -65,10 +85,45 @@ a:hover.dark-blue {
   object-position: top;
 }
 
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--light-blue);
+  color: white;
+  font-family: 'Shree';
+  font-weight: 900;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.banner p {
+  margin: 0;
+  padding: 0;
+}
+
+.banner-text--alert {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 .nav-bar {
   font-family: 'Shree';
   background-color: white;
-  border-bottom: 1px solid var(--dark-blue);
+  padding-top: 80px;
+}
+
+.main-nav {
+  display: none;
+}
+
+.nav-bar--monogram {
+  width: 250px;
 }
 
 .nav-bar-item {
@@ -77,17 +132,48 @@ a:hover.dark-blue {
   text-transform: uppercase;
 }
 
+.mobile-nav {
+  position: fixed;
+  display: none;
+  z-index: 1040;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 35%;
+  height: 100vh;
+}
+
+.open {
+  display: block !important;
+}
+
+.mobile-nav-icon--bar {
+  width: 100%;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.mobile-nav--item {
+  width: 100%;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.mobile-nav--item:hover {
+  background-color: var(--light-blue);
+}
+
+.mobile-nav--item a {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+}
+
 a {
   color: var(--dark-blue);
   text-decoration: none;
   letter-spacing: 1px;
   padding: 10px 0;
-}
-
-.header-names {
-  font-family: 'Raustila';
-  font-size: 40px;
-  margin: 15px auto;
 }
 
 .colour {
@@ -118,6 +204,10 @@ a {
   background-color: var(--green);
 }
 
+.section {
+  margin: 20px auto;
+}
+
 .content-wrapper {
   font-family: 'Shree';
   color: var(--dark-blue);
@@ -145,4 +235,14 @@ a {
   width: 300px;
   padding: 10px;
   margin: 20px;
+}
+
+@media (min-width: 40rem) {
+  .mobile-nav-icon--bar {
+    display: none;
+  }
+
+  .main-nav {
+    display: block;
+  }
 }
