@@ -3,7 +3,7 @@ import "./App.css";
 
 function WeddingParty() {
   return (
-    <div className="center dark-blue">
+    <div className="center content-text">
       {/* <img
         src="https://i.imgur.com/HkPmbb1.jpg"
         className="header-image"
@@ -14,16 +14,16 @@ function WeddingParty() {
         We’ve known all these wonderful people for many, many years and would
         love for you to get to know a little about them.
       </p>
-      <div>
-        <h3 className="content-title">Bridesmaids</h3>
+      <div className="content-wrapper">
+        <h3 className="content-title">The Bride's Crew</h3>
         <p>Maiysha McSavaney</p>
         <p>Hershey Rendon</p>
         <p>Kielle Marasigan</p>
         <p>Faith Lopez</p>
         <p>Brittany Sriranpong</p>
       </div>
-      <div>
-        <h3 className="content-title">Groomsmen</h3>
+      <div className="content-wrapper">
+        <h3 className="content-title">The Groom's Crew</h3>
         <p>
           Carlos Arevalo
           <br />

@@ -302,6 +302,11 @@ a {
   text-transform: uppercase;
 }
 
+.content-text {
+  font-family: 'Shree';
+  color: var(--dark-blue);
+}
+
 .info--date {
   font-family: 'Thank You';
   font-size: 40px;

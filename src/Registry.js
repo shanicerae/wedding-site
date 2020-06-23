@@ -20,7 +20,7 @@ function Registry() {
 
   return (
     <div>
-      <div className="section">
+      <div className="section content-text">
         <h2 className="content-title center dark-blue">Registry</h2>
         <div className="center dark-blue">
           <p>
