@@ -43,7 +43,7 @@ function Header() {
           />
         </div>
         <div className="main-nav">
-          <ul>
+          <ul className="nav-bar--link-wrapper">
             <li className="nav-bar-item">
               <NavLink to="/" onClick={closeMobileNav}>
                 Home

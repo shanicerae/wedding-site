@@ -190,13 +190,20 @@ a:hover.dark-blue {
   display: none;
 }
 
+.nav-bar--link-wrapper {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+}
+
 .nav-bar--monogram {
   width: 250px;
 }
 
 .nav-bar-item {
-  display: inline;
-  padding: 0 40px;
+  display: flex;
   text-transform: uppercase;
 }
 
@@ -280,8 +287,9 @@ a {
   font-family: 'Shree';
   color: var(--dark-blue);
   text-align: center;
-  /* width: 600px; */
-  /* border: 1px solid var(--dark-blue); */
+  width: 50%;
+  border: 1px solid var(--light-blue);
+  border-radius: 25px;
   margin: 20px auto;
   padding: 15px;
 }
