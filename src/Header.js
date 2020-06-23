@@ -56,7 +56,7 @@ function Header() {
               <NavLink to="/rsvp">RSVP</NavLink>
             </li>
             <li className="nav-bar-item">
-              <NavLink to="/vancouver">Wedding Party</NavLink>
+              <NavLink to="/wedding-party">Wedding Party</NavLink>
             </li>
             <li className="nav-bar-item">
               <NavLink to="/registry">Registry</NavLink>
@@ -77,7 +77,7 @@ function Header() {
             <NavLink to="/rsvp">RSVP</NavLink>
           </li>
           <li className="mobile-nav--item">
-            <NavLink to="/vancouver">WeddingParty</NavLink>
+            <NavLink to="/wedding-party">WeddingParty</NavLink>
           </li>
           <li className="mobile-nav--item">
             <NavLink to="/registry">Registry</NavLink>

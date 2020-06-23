@@ -9,6 +9,8 @@ function Info() {
       <div className="content-wrapper">
         <h2 className="content-title">Ceremony</h2>
         <div>
+          September 12, 2020
+          <br />
           St. Paul Parish
           <br />
           8251 St Albans Rd
@@ -23,7 +25,8 @@ function Info() {
           </a>
           <br />
           <br />
-          Please arrive by 14:00
+          Due to the ongoing pandemic, we will be holding an intimate ceremony
+          in the presence of our immediate family and wedding party.
         </div>
         {/* <div>
           <img src="https://www.stpaulparish.ca/images/photos/st-paul-parish-20190504.jpg"></img>
@@ -32,7 +35,9 @@ function Info() {
 
       <div className="content-wrapper">
         <h2 className="content-title">Reception</h2>
-        <span>
+        <div>
+          April 30, 2021
+          <br />
           Stanley Park Pavilion
           <br />
           610 Pipeline Rd
@@ -47,14 +52,13 @@ function Info() {
           </a>
           <br />
           <br />
-          Cocktail hour begins at 17:00
-          <br />
-          Please arrive by 18:30
-        </span>
+          We are keeping a close eye on world events, and anxiously await the
+          day we can celebrate our wedding with you all safely.
+        </div>
       </div>
 
       <div className="content-wrapper">
-        <h2 className="content-title">Details</h2>
+        <h2 className="content-title">Other Details</h2>
 
         <h4>Attire</h4>
         <div>Black Tie Optional</div>
