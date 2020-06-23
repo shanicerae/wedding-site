@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import ReceptionIcon from "./images/reception-icon.svg";
+import CeremonyIcon from "./images/ceremony-icon.svg";
 
 function Info() {
   return (
@@ -9,8 +11,8 @@ function Info() {
       <div className="content-wrapper">
         <h2 className="content-title">Ceremony</h2>
         <div>
-          September 12, 2020
-          <br />
+          <img src={CeremonyIcon} className="info--icon" alt="Church bells" />
+          <p className="info--date">September 12, 2020</p>
           St. Paul Parish
           <br />
           8251 St Albans Rd
@@ -36,8 +38,12 @@ function Info() {
       <div className="content-wrapper">
         <h2 className="content-title">Reception</h2>
         <div>
-          April 30, 2021
-          <br />
+          <img
+            src={ReceptionIcon}
+            className="info--icon"
+            alt="Clinking wine glasses"
+          />
+          <p className="info--date">April 30, 2021</p>
           Stanley Park Pavilion
           <br />
           610 Pipeline Rd
@@ -60,15 +66,14 @@ function Info() {
       <div className="content-wrapper">
         <h2 className="content-title">Other Details</h2>
 
-        <h4>Attire</h4>
+        <h4 className="info--details">Attire</h4>
         <div>Black Tie Optional</div>
         <br />
 
-        <h4>Colour Palette</h4>
+        <h4 className="info--details">Colour Palette</h4>
         <span className="colour blush"></span>
-        <span className="colour navy"></span>
         <span className="colour baby-blue"></span>
-        <span className="colour white"></span>
+        <span className="colour navy"></span>
         <span className="colour green"></span>
       </div>
     </div>

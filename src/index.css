@@ -42,7 +42,7 @@ ul {
   --light-blue: rgb(208, 235, 255);
   --dark-blue: rgb(1, 62, 166);
   --blush: rgb(250, 229, 227);
-  --green: rgb(50, 104, 14);
+  --green: rgb(45, 83, 15);
   --white: rgb(253, 253, 253);
 }
 
@@ -292,13 +292,30 @@ a {
   border-radius: 25px;
   margin: 20px auto;
   padding: 15px;
+  font-size: 14px;
 }
 
 .content-title {
   font-family: 'Playfair Display', sans-serif;
-  padding-bottom: 15px;
+  padding-bottom: 12px;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.info--date {
+  font-family: 'Thank You';
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.info--icon {
+  width: 50px;
+  padding-bottom: 20px;
+}
+
+.info--details {
+  font-family: 'Thank You';
+  font-weight: bold;
 }
 
 .directions-link {
