@@ -1,29 +1,35 @@
-import React, { useState } from "react";
+import React /*, { useState }*/ from "react";
 import "./App.css";
 
 function Rsvp() {
-  const [guestCount, setGuestCount] = useState(0);
+  // const [guestCount, setGuestCount] = useState(0);
 
-  function createArray(n) {
-    const array = [];
+  // function createArray(n) {
+  //   const array = [];
 
-    while (--n >= 0) {
-      array.push(n);
-    }
+  //   while (--n >= 0) {
+  //     array.push(n);
+  //   }
 
-    return array;
-  };
+  //   return array;
+  // }
 
   return (
-    <div>
-      <img
+    <div className="center dark-blue">
+      {/* <img
         src="https://i.imgur.com/HkPmbb1.jpg"
         className="header-image"
         alt="engagement"
-      />
-      <h2 className="content-title center dark-blue">R S V P</h2>
+      /> */}
+      <h2 className="content-title">R S V P</h2>
 
-      <form>
+      <p>
+        Once the formal invitations have been sent out, you will have an
+        opportunity to RSVP to our reception. <br></br> We hope to see you all
+        there!
+      </p>
+
+      {/* <form>
         <label htmlFor="guest-count">
           How many guests are you responding for?
         </label>
@@ -40,13 +46,15 @@ function Rsvp() {
           <option value="4">4</option>
           <option value="5">5</option>
         </select>
-        {
-          createArray(guestCount).map((i) => {
-            return <div key={i}><label htmlFor="full-name">Name of Guest</label><input name="guest-name"></input></div>;
-          })
-        }
-
-      </form>
+        {createArray(guestCount).map((i) => {
+          return (
+            <div key={i}>
+              <label htmlFor="full-name">Name of Guest</label>
+              <input name="guest-name"></input>
+            </div>
+          );
+        })}
+      </form> */}
     </div>
   );
 }

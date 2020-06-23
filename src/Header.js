@@ -50,13 +50,13 @@ function Header() {
               </NavLink>
             </li>
             <li className="nav-bar-item">
-              <NavLink to="/info">Day-of Details</NavLink>
+              <NavLink to="/info">Schedule of Events</NavLink>
             </li>
             <li className="nav-bar-item">
               <NavLink to="/rsvp">RSVP</NavLink>
             </li>
             <li className="nav-bar-item">
-              <NavLink to="/vancouver">Vancouver</NavLink>
+              <NavLink to="/vancouver">Wedding Party</NavLink>
             </li>
             <li className="nav-bar-item">
               <NavLink to="/registry">Registry</NavLink>
@@ -71,13 +71,13 @@ function Header() {
             <NavLink to="/">Home</NavLink>
           </li>
           <li className="mobile-nav--item">
-            <NavLink to="/info">Day-of Details</NavLink>
+            <NavLink to="/info">Schedule of Events</NavLink>
           </li>
           <li className="mobile-nav--item">
             <NavLink to="/rsvp">RSVP</NavLink>
           </li>
           <li className="mobile-nav--item">
-            <NavLink to="/vancouver">Vancouver</NavLink>
+            <NavLink to="/vancouver">WeddingParty</NavLink>
           </li>
           <li className="mobile-nav--item">
             <NavLink to="/registry">Registry</NavLink>
