@@ -8,7 +8,9 @@ function CovidBanner() {
     <div className="banner center">
       {isExpanded ? (
         <div>
-          <p onClick={() => setIsExpanded(!isExpanded)}>X</p>
+          <div className="banner-text--x-wrapper">
+            <div className="banner-text--x" onClick={() => setIsExpanded(!isExpanded)}>x</div>
+          </div>
           <p>
             Out of an abundance of caution for the health and safety of our
             loved ones, we have made the difficult decision to adjust our
@@ -30,7 +32,9 @@ function CovidBanner() {
       ) : (
         <div>
           <p className="banner-text--alert"> A COVID-19 update from the couple </p>
-          <p onClick={() => setIsExpanded(!isExpanded)}>⬇️</p>
+          <div className="banner-text--arrow">
+            <p class="arrow" onClick={() => setIsExpanded(!isExpanded)}></p>
+          </div>
         </div>
       )}
     </div>
