@@ -3,7 +3,7 @@ import "./App.css";
 
 function WeddingParty() {
   return (
-    <div className="center content-text">
+    <div className="center content-text section">
       {/* <img
         src="https://i.imgur.com/HkPmbb1.jpg"
         className="header-image"

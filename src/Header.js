@@ -35,7 +35,7 @@ function Header() {
       <CovidBanner />
       <div className="backdrop" onClick={closeMobileNav}></div>
       <header className="nav-bar center dark-blue">
-        <img src={Monogram} className="nav-bar--monogram" alt="J + S" />
+        {/* <img src={Monogram} className="nav-bar--monogram" alt="J + S" /> */}
         <div className="mobile-nav-icon--bar">
           <img src={Monogram} className="mobile-nav--monogram" alt="J + S" />
           <img
@@ -48,24 +48,23 @@ function Header() {
         <div className="main-nav">
           <ul className="nav-bar--link-wrapper">
             <li className="nav-bar-item">
-              <NavLink to="/" onClick={closeMobileNav}>
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-bar-item">
               <NavLink to="/info">Schedule of Events</NavLink>
-            </li>
-            <li className="nav-bar-item">
-              <NavLink to="/rsvp">RSVP</NavLink>
             </li>
             <li className="nav-bar-item">
               <NavLink to="/wedding-party">Wedding Party</NavLink>
             </li>
             <li className="nav-bar-item">
+              <NavLink to="/" onClick={closeMobileNav}>
+                <img src={Monogram} className="nav-bar--monogram" alt="J + S" />
+              </NavLink>
+            </li>
+            <li className="nav-bar-item">
               <NavLink to="/registry">Registry</NavLink>
             </li>
+            <li className="nav-bar-item">
+              <NavLink to="/rsvp">RSVP</NavLink>
+            </li>
           </ul>
-          <hr className="dark-blue"></hr>
         </div>
       </header>
       <div className="mobile-nav">

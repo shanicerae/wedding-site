@@ -211,7 +211,7 @@ a:hover.dark-blue {
 
 .nav-bar--monogram {
   display: none;
-  width: 250px;
+  width: 100px;
   margin: auto;
 }
 
@@ -304,8 +304,17 @@ a {
   background-color: var(--green);
 }
 
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .section {
-  margin: 20px auto;
+  padding: 20px 0;
+  margin: 0 auto
 }
 
 .content-wrapper {
@@ -331,6 +340,23 @@ a {
 .content-text {
   font-family: 'Shree';
   color: var(--dark-blue);
+}
+
+.info--title {
+  font-family: 'Thank You';
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.info--title--nop {
+  font-family: 'Thank You';
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.info--img {
+  width: 100px;
+  transform: rotate(15deg);
 }
 
 .info--date {
@@ -366,9 +392,8 @@ a {
     display: block;
   }
 
-  .wrapper {
-    width: 100%;
-    margin: auto;
+  .nav-bar-item {
+    width: 100px;
   }
 
   .content-wrapper {

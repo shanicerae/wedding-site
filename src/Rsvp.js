@@ -15,7 +15,7 @@ function Rsvp() {
   // }
 
   return (
-    <div className="center dark-blue content-text">
+    <div className="center dark-blue content-text section">
       {/* <img
         src="https://i.imgur.com/HkPmbb1.jpg"
         className="header-image"
