@@ -16,16 +16,18 @@ function Rsvp() {
   // }
 
   return (
-    <div className="center dark-blue content-text">
+    <div className="center dark-blue">
       <img src={CoffeeShop} className="header-image" alt="engagement" />
-      <div className="section">
-        <h2 className="content-title">Trying to RSVP?</h2>
-        <p>You're a tad early!</p>
-        <p>
-          Once the formal invitations have been sent out, you will have an
-          opportunity to RSVP to our reception. <br></br> We hope to see you all
-          there on April 30, 2021!
-        </p>
+      <div className="section bg--light-blue">
+        <div className="content-wrapper">
+          <h2 className="content-title">Trying to RSVP?</h2>
+          <p className="info--details">You're a tad early!</p>
+          <p>
+            Once the formal invitations have been sent out, you will have an
+            opportunity to RSVP to our reception. <br></br> We hope to see you
+            all there on April 30, 2021!
+          </p>
+        </div>
       </div>
 
       {/* <form>

@@ -19,12 +19,10 @@ function Registry() {
   }, []);
 
   return (
-    <div>
+    <div className="center dark-blue">
       <div className="section content-wrapper">
-        <h2 className="center dark-blue registry--title">
-          A note on our registry:
-        </h2>
-        <div className="center dark-blue">
+        <h2 className="alt-content-title">A note on our registry:</h2>
+        <div>
           <p>
             Recent world events have made us extremely thankful for the presence
             of our family and friends. Celebrating with you on our special day

@@ -9,13 +9,14 @@ function WeddingParty() {
         className="header-image"
         alt="engagement"
       /> */}
-      <h2 className="content-title">Meet our wedding party</h2>
+      <h2 className="alt-content-title">Meet our wedding party</h2>
       <p>
         We’ve known all these wonderful people for many, many years and would
         love for you to get to know a little about them.
       </p>
       <div className="content-wrapper">
-        <h3 className="content-title">The Bride's Crew</h3>
+        <h3 className="content-title--nop">The Bride Tribe</h3>
+        <p className="alt-content-title">Shanice's nearest and dearest</p>
         <p>Maiysha McSavaney</p>
         <p>Hershey Rendon</p>
         <p>Kielle Marasigan</p>
@@ -23,7 +24,8 @@ function WeddingParty() {
         <p>Brittany Sriranpong</p>
       </div>
       <div className="content-wrapper">
-        <h3 className="content-title">The Groom's Crew</h3>
+        <h3 className="content-title--nop">The Groom's Crew</h3>
+        <p className="alt-content-title">The ones who have Josué's back</p>
         <p>
           Carlos Arevalo
           <br />
