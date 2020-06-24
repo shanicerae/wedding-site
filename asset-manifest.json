@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/wedding-site/static/css/main.4b02f787.chunk.css",
+    "main.js": "/wedding-site/static/js/main.79f2b884.chunk.js",
+    "main.js.map": "/wedding-site/static/js/main.79f2b884.chunk.js.map",
+    "runtime-main.js": "/wedding-site/static/js/runtime-main.0ce9dfa5.js",
+    "runtime-main.js.map": "/wedding-site/static/js/runtime-main.0ce9dfa5.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/wedding-site/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.6728c640.chunk.js": "/wedding-site/static/js/2.6728c640.chunk.js",
+    "static/js/2.6728c640.chunk.js.map": "/wedding-site/static/js/2.6728c640.chunk.js.map",
+    "index.html": "/wedding-site/index.html",
+    "precache-manifest.b4d969516b7253ff3b1e80c3cd00644c.js": "/wedding-site/precache-manifest.b4d969516b7253ff3b1e80c3cd00644c.js",
+    "service-worker.js": "/wedding-site/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/wedding-site/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.4b02f787.chunk.css.map": "/wedding-site/static/css/main.4b02f787.chunk.css.map",
+    "static/media/Bottom-Bouquet-Diagonal.png": "/wedding-site/static/media/Bottom-Bouquet-Diagonal.bdc4d37a.png",
+    "static/media/NavIcon.svg": "/wedding-site/static/media/NavIcon.110f8488.svg",
+    "static/media/index.css": "/wedding-site/static/media/raustila-Regular.d2efc3f0.ttf",
+    "static/media/Top-Bouquet-Diagonal.png": "/wedding-site/static/media/Top-Bouquet-Diagonal.38776059.png",
+    "static/media/ceremony-icon.svg": "/wedding-site/static/media/ceremony-icon.eb3b62b7.svg",
+    "static/media/coffee-shop.jpeg": "/wedding-site/static/media/coffee-shop.ceff3b30.jpeg",
+    "static/media/monogram.png": "/wedding-site/static/media/monogram.55f9717e.png",
+    "static/media/pink-branch.png": "/wedding-site/static/media/pink-branch.f23307e9.png",
+    "static/media/pink-flower.png": "/wedding-site/static/media/pink-flower.549e1311.png",
+    "static/media/reception-icon.svg": "/wedding-site/static/media/reception-icon.e7eae057.svg",
+    "static/media/ring.jpg": "/wedding-site/static/media/ring.1347085b.jpg",
+    "static/media/tacos.jpg": "/wedding-site/static/media/tacos.95389c4f.jpg"
+  }
+}
