@@ -5,6 +5,8 @@ import PinkFlower from "./images/pink-flower.png";
 import TopBouquet from "./images/Top-Bouquet-Diagonal.png";
 import BottomBouquet from "./images/Bottom-Bouquet-Diagonal.png";
 import CeremonyIcon from "./images/ceremony-icon.svg";
+import Tacos from "./images/us/tacos.jpg";
+import Ring from "./images/us/ring.jpg";
 
 function App() {
   return (
@@ -22,11 +24,7 @@ function App() {
         </div>
         {/* <img src={BottomBouquet} alt="engagement" className="intro--florals" /> */}
       </div>
-      <img
-        src="https://i.imgur.com/HkPmbb1.jpg"
-        className="header-image"
-        alt="engagement"
-      />
+      <img src={Ring} className="header-image" alt="engagement" />
       <div className="section bg--light-blue">
         <div className="content-wrapper">
           <h2 className="info--title">How We Met</h2>
@@ -57,11 +55,7 @@ function App() {
         </div>
       </div>
 
-      <img
-        src="https://i.imgur.com/HkPmbb1.jpg"
-        className="header-image"
-        alt="engagement"
-      />
+      <img src={Tacos} className="header-image cut-image" alt="engagement" />
 
       <div className="section bg--light-blue">
         <div className="content-wrapper">

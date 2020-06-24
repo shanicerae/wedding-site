@@ -89,6 +89,10 @@ a:hover.dark-blue {
   object-position: top;
 }
 
+.cut-image {
+  object-position: center;
+}
+
 .wrapper {
   width: 100%;
   margin: auto;

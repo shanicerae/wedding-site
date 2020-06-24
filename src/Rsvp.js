@@ -1,5 +1,6 @@
 import React /*, { useState }*/ from "react";
 import "./App.css";
+import CoffeeShop from "./images/us/coffee-shop.jpeg";
 
 function Rsvp() {
   // const [guestCount, setGuestCount] = useState(0);
@@ -16,11 +17,7 @@ function Rsvp() {
 
   return (
     <div className="center dark-blue content-text">
-      <img
-        src="https://i.imgur.com/HkPmbb1.jpg"
-        className="header-image"
-        alt="engagement"
-      />
+      <img src={CoffeeShop} className="header-image" alt="engagement" />
       <div className="section">
         <h2 className="content-title">Trying to RSVP?</h2>
         <p>You're a tad early!</p>
