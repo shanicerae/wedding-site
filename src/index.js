@@ -7,16 +7,14 @@ import Rsvp from "./Rsvp.js";
 import WeddingParty from "./WeddingParty.js";
 import Registry from "./Registry.js";
 import Header from "./Header.js";
-import CovidBanner from "./CovidBanner.js";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const routing = (
   <Router>
-    <CovidBanner />
+    <Header />
     <div className="wrapper">
-      <Header />
       <Switch>
         <Route path="/info">
           <Info />

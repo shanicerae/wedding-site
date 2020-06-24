@@ -3,6 +3,7 @@ import "./App.css";
 import { NavLink, useHistory } from "react-router-dom";
 import NavIcon from "./NavIcon.svg";
 import Monogram from "./images/monogram.png";
+import CovidBanner from "./CovidBanner.js";
 
 function Header() {
   const history = useHistory();
@@ -30,11 +31,13 @@ function Header() {
   }
 
   return (
-    <div>
+    <div className="header">
+      <CovidBanner />
       <div className="backdrop" onClick={closeMobileNav}></div>
       <header className="nav-bar center dark-blue">
         <img src={Monogram} className="nav-bar--monogram" alt="J + S" />
         <div className="mobile-nav-icon--bar">
+          <img src={Monogram} className="mobile-nav--monogram" alt="J + S" />
           <img
             src={NavIcon}
             className="mobile-nav-icon"

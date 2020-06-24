@@ -86,25 +86,28 @@ a:hover.dark-blue {
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: auto;
+  padding-top: 180px;
 }
 
 .banner {
-  position: fixed;
-  top: 0;
   width: 100%;
   background-color: var(--light-blue);
   color: white;
   font-family: 'Shree';
   font-weight: 900;
   font-size: 16px;
-  padding: 20px;
-  box-shadow: 0px 0px 8px 0px rgb(164, 186, 202);
+  padding: 15px;
+}
+
+.banner--expanded {
+  height: 100vh;
 }
 
 .banner p {
   margin: 0;
+  font-size: 14px;
 }
 
 .banner-text--x-wrapper {
@@ -122,14 +125,12 @@ a:hover.dark-blue {
 }
 
 .banner-text--alert {
-  font-size: 20px;
   text-transform: uppercase;
-  margin: 20px;
 }
 
 .banner-text--arrow {
   position: relative;
-  height: 25px;
+  height: 15px;
   margin-bottom: 5px;
 }
 
@@ -144,8 +145,8 @@ a:hover.dark-blue {
 }
 
 .arrow {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   top: 50%;
   margin: -20px 0 0 -20px;
   -webkit-transform: rotate(45deg);
@@ -180,10 +181,16 @@ a:hover.dark-blue {
   }
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .nav-bar {
   font-family: 'Shree';
   background-color: white;
-  padding-top: 80px;
+  box-shadow: 0px 3px 3px -3px rgb(164, 186, 202);
 }
 
 .main-nav {
@@ -199,7 +206,13 @@ a:hover.dark-blue {
 }
 
 .nav-bar--monogram {
+  display: none;
   width: 250px;
+  margin: auto;
+}
+
+.mobile-nav--monogram {
+  width: 100px;
 }
 
 .nav-bar-item {
@@ -212,20 +225,28 @@ a:hover.dark-blue {
   display: none;
   z-index: 1040;
   top: 0;
-  left: 0;
+  left: 60%;
   background: white;
-  width: 35%;
+  width: 40%;
   height: 100vh;
+  box-shadow: -2px 0px 3px -3px rgb(164, 186, 202);
 }
 
 .open {
   display: block !important;
 }
 
+.mobile-nav-icon {
+  width: 25px;
+  margin: 25px;
+}
+
 .mobile-nav-icon--bar {
   width: 100%;
   text-align: left;
-  padding: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .mobile-nav--item {
@@ -287,7 +308,7 @@ a {
   font-family: 'Shree';
   color: var(--dark-blue);
   text-align: center;
-  width: 50%;
+  width: 90%;
   border: 1px solid var(--light-blue);
   border-radius: 25px;
   margin: 20px auto;
@@ -336,6 +357,23 @@ a {
 }
 
 @media (min-width: 40rem) {
+  .nav-bar--monogram {
+    display: block;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .content-wrapper {
+    width: 50%;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+
   .mobile-nav-icon--bar {
     display: none;
   }
