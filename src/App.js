@@ -2,10 +2,26 @@ import React from "react";
 import "./App.css";
 import PinkBranch from "./images/pink-branch.png";
 import PinkFlower from "./images/pink-flower.png";
+import TopBouquet from "./images/Top-Bouquet-Diagonal.png";
+import BottomBouquet from "./images/Bottom-Bouquet-Diagonal.png";
+import CeremonyIcon from "./images/ceremony-icon.svg";
 
 function App() {
   return (
     <div className="info dark-blue">
+      <div className="section">
+        {/* <img src={TopBouquet} alt="engagement" className="intro--florals" /> */}
+        <div className="center">
+          <img src={CeremonyIcon} className="info--icon" alt="Church bells" />
+          <br />
+          <span className="intro--names">
+            Josué David Arévalo & Shanice Rae McSavaney
+            <br />
+          </span>
+          <span className="intro--text">are getting married!</span>
+        </div>
+        {/* <img src={BottomBouquet} alt="engagement" className="intro--florals" /> */}
+      </div>
       <img
         src="https://i.imgur.com/HkPmbb1.jpg"
         className="header-image"
