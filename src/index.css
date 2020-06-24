@@ -403,11 +403,9 @@ a {
   font-weight: bold;
 }
 
-.registry-button {
-  border: 1px solid var(--dark-blue);
-  width: 300px;
-  padding: 10px;
-  margin: 20px;
+.registry--title {
+  font-family: 'Thank You';
+  font-weight: bold;
 }
 
 @media (min-width: 40rem) {

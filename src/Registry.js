@@ -20,17 +20,21 @@ function Registry() {
 
   return (
     <div>
-      <div className="section content-text">
-        <h2 className="content-title center dark-blue">Registry</h2>
+      <div className="section content-wrapper">
+        <h2 className="center dark-blue registry--title">
+          A note on our registry:
+        </h2>
         <div className="center dark-blue">
           <p>
-            Recent world events have made us extremely thankful to be able to be
-            with all our family and friends, if we are able. Celebrating with
-            you on our special day is the only gift we need! For our guests who
-            would like to commemorate our wedding with a gift, we’ve created a
-            registry with the items we’d find the most useful as we prepare for
-            married life! You can view the items on our registry below, or
-            at&nbsp;
+            Recent world events have made us extremely thankful for the presence
+            of our family and friends. Celebrating with you on our special day
+            is the only gift we need!
+          </p>
+          <p>
+            For our guests who would like to commemorate our wedding with a
+            gift, we’ve created a registry with the items we’d find the most
+            useful as we prepare for married life. You can view the items on our
+            registry below, or at&nbsp;
             <a href="https://registry.thebay.com/registry/view-registry/josue-and-shanice">
               Hudson's Bay
             </a>
@@ -46,6 +50,7 @@ function Registry() {
           </p>
         </div>
       </div>
+      <hr className="dark-blue"></hr>
       <div id="registry" className="section"></div>
     </div>
   );
