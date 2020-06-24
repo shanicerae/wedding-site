@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App dark-blue">
+    <div className="App dark-blue bg--light-blue">
       <img
         src="https://i.imgur.com/HkPmbb1.jpg"
         className="header-image"
