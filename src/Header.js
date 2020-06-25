@@ -78,7 +78,7 @@ function Header() {
             <NavLink to="/rsvp">RSVP</NavLink>
           </li>
           <li className="mobile-nav--item">
-            <NavLink to="/wedding-party">WeddingParty</NavLink>
+            <NavLink to="/wedding-party">Wedding Party</NavLink>
           </li>
           <li className="mobile-nav--item">
             <NavLink to="/registry">Registry</NavLink>

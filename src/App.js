@@ -12,17 +12,19 @@ function App() {
   return (
     <div className="info dark-blue">
       <div className="section">
-        {/* <img src={TopBouquet} alt="engagement" className="intro--florals" /> */}
         <div className="center">
           <img src={CeremonyIcon} className="info--icon" alt="Church bells" />
           <br />
           <span className="intro--names">
-            Josué David Arévalo & Shanice Rae McSavaney
+            Josué David Arévalo&nbsp;
+            <br className="show-mob" />
+            &&nbsp;
+            <br className="show-mob" />
+            Shanice Rae McSavaney
             <br />
           </span>
           <span className="intro--text">are getting married!</span>
         </div>
-        {/* <img src={BottomBouquet} alt="engagement" className="intro--florals" /> */}
       </div>
       <img src={Ring} className="header-image" alt="engagement" />
       <div className="section bg--light-blue">

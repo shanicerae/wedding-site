@@ -12,7 +12,7 @@ function WeddingParty() {
         alt="engagement"
       /> */}
       <h2 className="alt-content-title">Meet our wedding party</h2>
-      <p>
+      <p className="content-subtitle">
         We’ve known all these wonderful people for many, many years and would
         love for you to get to know a little about them.
       </p>

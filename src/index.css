@@ -105,7 +105,6 @@ a:hover.dark-blue {
   color: white;
   font-family: 'Shree';
   font-weight: 900;
-  font-size: 14px;
   padding-top: 15px;
   z-index: 1020;
 }
@@ -121,7 +120,7 @@ a:hover.dark-blue {
 
 .banner-text--x {
   padding: 0 20px;
-  font-size: 30px;
+  font-size: 2.1rem;
   float: right;
 }
 
@@ -135,22 +134,28 @@ a:hover.dark-blue {
   height: 100%;
 }
 
+.banner-text--expanded p {
+  font-size: 0.9rem;
+}
+
 .banner-florals--top {
-  width: 300px;
+  width: 150px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10px;
 }
 
 .banner-florals--bottom {
-  width: 300px;
+  width: 150px;
   position: absolute;
-  left: calc(100vw - 350px);
-  top: calc(100vh - 350px);
+  left: calc(100vw - 180px);
+  top: calc(100vh - 180px);
 }
 
 .banner-text--alert {
+  font-size: 1rem;
   text-transform: uppercase;
+  padding-bottom: 5px;
 }
 
 .banner-text--arrow {
@@ -284,9 +289,10 @@ a:hover.dark-blue {
   width: 100%;
   text-transform: uppercase;
   padding: 15px;
+  font-size: 0.9rem;
 }
 
-.mobile-nav--item:hover {
+.mobile-nav--item:hover, .mobile-nav--item:active {
   background-color: var(--light-blue);
 }
 
@@ -354,20 +360,25 @@ a {
   border-radius: 25px;
   margin: 20px auto;
   padding: 15px;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .content-title {
   font-family: 'Playfair Display', sans-serif;
+  font-size: 2rem;
   padding-bottom: 12px;
-  letter-spacing: 5px;
+  letter-spacing: 0.35rem;
   text-transform: uppercase;
 }
 
 .content-title--nop {
   font-family: 'Playfair Display', sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 0.35rem;
   text-transform: uppercase;
+}
+
+.content-subtitle {
+  font-size: 0.9rem;
 }
 
 .content-text {
@@ -375,34 +386,27 @@ a {
   color: var(--dark-blue);
 }
 
-.intro--florals {
-  width: 300px;
-}
-
 .intro--names {
-  font-size: 20px;
+  font-size: 1.2rem;
   font-family: 'Thank You';
 }
 
 .intro--text {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-family: 'Thank You';
-}
-
-.intro--date {
-  font-family: 'Raustila';
-  font-size: 24px;
 }
 
 .info--title {
   font-family: 'Thank You';
   font-weight: bold;
+  font-size: 2rem;
   padding: 10px 0;
 }
 
 .info--title--nop {
   font-family: 'Thank You';
   font-weight: bold;
+  font-size: 2rem;
   padding-top: 10px;
 }
 
@@ -415,7 +419,7 @@ a {
 
 .info--date {
   font-family: 'Thank You';
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -427,6 +431,7 @@ a {
 .info--details {
   font-family: 'Thank You';
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .directions-link {
@@ -464,15 +469,19 @@ a {
 
 .wp--name {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 0;
 }
 
 .wp--description {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 @media (min-width: 40rem) {
+  .show-mob {
+    display: none;
+  }
+  
   .nav-bar--monogram {
     display: block;
   }
@@ -481,19 +490,33 @@ a {
     width: 100px;
   }
 
-  .content-wrapper {
-    width: 50%;
-  }
-
-  .banner-text--expanded p {
-    font-size: 16px;
-  }
-
   .mobile-nav-icon--bar {
     display: none;
   }
 
   .main-nav {
     display: block;
+  }
+
+  .banner-text--expanded p {
+    font-size: 1rem;
+  }
+
+  .banner-florals--top {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .banner-florals--bottom {
+    width: 300px;
+    position: absolute;
+    left: calc(100vw - 350px);
+    top: calc(100vh - 350px);
+  }
+
+  .content-wrapper {
+    width: 50%;
   }
 }
