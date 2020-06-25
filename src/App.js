@@ -61,7 +61,7 @@ function App() {
         <div className="content-wrapper">
           <h2 className="info--title--nop">A litte bit about us</h2>
           <img src={PinkFlower} className="info--img" alt="Pink Flower"></img>
-          <p>
+          <div>
             <p>
               <span className="bold">Favourite food to eat:</span> Pho from Pho
               Lan in Richmond
@@ -88,7 +88,7 @@ function App() {
               words that came out were “…-arry me?” The beginning part of that
               was only mouthed. She saw the ring and it was enough.
             </p>
-          </p>
+          </div>
         </div>
       </div>
     </div>

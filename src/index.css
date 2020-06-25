@@ -130,8 +130,7 @@ a:hover.dark-blue {
 
 .banner-text--expanded {
   font-family: 'Shree';
-  padding: 20%;
-  height: 100%;
+  padding: 110px 50px;
 }
 
 .banner-text--expanded p {
@@ -360,7 +359,7 @@ a {
   border-radius: 25px;
   margin: 20px auto;
   padding: 15px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .content-title {
@@ -448,8 +447,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
 }
 
 .wp--img-container {
@@ -464,7 +462,8 @@ a {
 }
 
 .wp--text {
-  width: 150px;
+  width: 50%;
+  padding: 0 5px;
 }
 
 .wp--name {
@@ -498,8 +497,12 @@ a {
     display: block;
   }
 
+  .banner-text--expanded {
+    padding: 15%;
+  }
+
   .banner-text--expanded p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .banner-florals--top {
@@ -518,5 +521,34 @@ a {
 
   .content-wrapper {
     width: 50%;
+  }
+
+  .content-subtitle {
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+
+  .intro--names {
+    font-size: 1.5rem;
+  }
+  
+  .intro--text {
+    font-size: 1.2rem;
+  }
+
+  .wp--container {
+    padding: 10px;
+  }
+
+  .wp--text {
+    width: 180px;
+  }
+
+  .wp--name {
+    font-size: 1.1rem;
+  }
+  
+  .wp--description {
+    font-size: 1rem;
   }
 }
