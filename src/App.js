@@ -2,8 +2,6 @@ import React from "react";
 import "./App.css";
 import PinkBranch from "./images/pink-branch.png";
 import PinkFlower from "./images/pink-flower.png";
-import TopBouquet from "./images/Top-Bouquet-Diagonal.png";
-import BottomBouquet from "./images/Bottom-Bouquet-Diagonal.png";
 import CeremonyIcon from "./images/ceremony-icon.svg";
 import Tacos from "./images/us/tacos.jpg";
 import Ring from "./images/us/ring.jpg";

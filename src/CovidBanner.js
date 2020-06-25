@@ -58,7 +58,7 @@ function CovidBanner() {
             An important update from the couple{" "}
           </p>
           <div className="banner-text--arrow">
-            <p class="arrow" onClick={() => setIsExpanded(!isExpanded)}></p>
+            <p className="arrow" onClick={() => setIsExpanded(!isExpanded)}></p>
           </div>
         </div>
       )}
