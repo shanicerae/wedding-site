@@ -242,6 +242,7 @@ a:hover.dark-blue {
 
 .mobile-nav--monogram {
   width: 100px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -436,6 +437,39 @@ a {
 .alt-content-title {
   font-family: 'Thank You';
   font-weight: bold;
+}
+
+.wp--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 10px;
+}
+
+.wp--img-container {
+  width: 150px;
+  height: 150px;
+}
+
+.wp--img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.wp--text {
+  width: 150px;
+}
+
+.wp--name {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.wp--description {
+  font-size: 12px;
 }
 
 @media (min-width: 40rem) {
