@@ -101,21 +101,18 @@ a:hover.dark-blue {
 
 .banner {
   width: 100%;
-  background-color: var(--light-blue);
+  background-color: rgb(240, 178, 177);
   color: white;
   font-family: 'Shree';
   font-weight: 900;
-  font-size: 16px;
-  padding: 15px;
+  font-size: 14px;
+  padding-top: 15px;
+  z-index: 1020;
 }
 
 .banner--expanded {
+  position: relative;
   height: 100vh;
-}
-
-.banner p {
-  margin: 0;
-  font-size: 14px;
 }
 
 .banner-text--x-wrapper {
@@ -123,13 +120,33 @@ a:hover.dark-blue {
 }
 
 .banner-text--x {
-  padding: 0 15px;
-  font-size: 20px;
+  padding: 0 20px;
+  font-size: 30px;
   float: right;
 }
 
 .banner-text--x:hover,:active {
   cursor: pointer;
+}
+
+.banner-text--expanded {
+  font-family: 'Shree';
+  padding: 20%;
+  height: 100%;
+}
+
+.banner-florals--top {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner-florals--bottom {
+  width: 300px;
+  position: absolute;
+  left: calc(100vw - 350px);
+  top: calc(100vh - 350px);
 }
 
 .banner-text--alert {
@@ -139,7 +156,6 @@ a:hover.dark-blue {
 .banner-text--arrow {
   position: relative;
   height: 15px;
-  margin-bottom: 5px;
 }
 
 .banner-text--arrow:hover,:active {
@@ -193,6 +209,11 @@ a:hover.dark-blue {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1040;
+}
+
+.signature-text {
+  font-family: 'Thank You';
 }
 
 .nav-bar {
@@ -385,8 +406,10 @@ a {
 }
 
 .info--img {
+  position: relative;
   width: 100px;
   transform: rotate(15deg);
+  z-index: 1000;
 }
 
 .info--date {
@@ -428,7 +451,7 @@ a {
     width: 50%;
   }
 
-  .banner p {
+  .banner-text--expanded p {
     font-size: 16px;
   }
 
