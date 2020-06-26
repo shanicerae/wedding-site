@@ -453,12 +453,13 @@ a {
 .wp--img-container {
   width: 150px;
   height: 150px;
+  border-radius: 25px;
+  overflow: hidden;
 }
 
 .wp--img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  border-radius: 25px;
 }
 
 .wp--text {

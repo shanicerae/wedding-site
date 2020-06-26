@@ -1,16 +1,14 @@
 import React from "react";
 import "./App.css";
 import Maiysha from "./images/wedding-party/maiysha.jpg";
+import Hershey from "./images/wedding-party/hershey.jpg";
+import Kielle from "./images/wedding-party/kielle.jpg";
 import Faith from "./images/wedding-party/faith.jpg";
+import Brittany from "./images/wedding-party/brittany.jpg";
 
 function WeddingParty() {
   return (
     <div className="center content-text section">
-      {/* <img
-        src="https://i.imgur.com/HkPmbb1.jpg"
-        className="header-image"
-        alt="engagement"
-      /> */}
       <h2 className="alt-content-title">Meet our wedding party</h2>
       <p className="content-subtitle">
         We’ve known all these wonderful people for many, many years and would
@@ -38,12 +36,12 @@ function WeddingParty() {
             </p>
           </div>
           <div className="wp--img-container">
-            <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
+            <img src={Hershey} alt="Hershey" className="wp--img"></img>
           </div>
         </div>
         <div className="wp--container">
           <div className="wp--img-container">
-            <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
+            <img src={Kielle} alt="Kielle" className="wp--img"></img>
           </div>
           <div className="wp--text">
             <p className="wp--name">Kielle Marasigan</p>
@@ -65,7 +63,7 @@ function WeddingParty() {
         </div>
         <div className="wp--container">
           <div className="wp--img-container">
-            <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
+            <img src={Brittany} alt="Brittany" className="wp--img"></img>
           </div>
           <div className="wp--text">
             <p className="wp--name">Brittany Sriranpong</p>
