@@ -25,7 +25,7 @@ function WeddingParty() {
           </div>
           <div className="wp--text">
             <p className="wp--name">Maiysha McSavaney</p>
-            <p className="wp--description">Shanice's favourite sister.</p>
+            <p className="wp--description">Shanice's favourite (and only) sister. An <a href="https://www.youtube.com/channel/UC4yXqHGZ5rFyK9neF3KlfTg/featured" target="_blank">aspiring YouTuber</a> currently studying at BCIT.</p>
           </div>
         </div>
         <img src={Branch} className="wp--break" />
@@ -33,7 +33,7 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Hershey Rendon</p>
             <p className="wp--description">
-              Shanice's cousin. A standard millenial - enjoys coffee, wine and
+              Shanice's cousin. A standard millenial - loves coffee, wine and
               charcuterie boards.
             </p>
           </div>
@@ -49,18 +49,17 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Kielle Marasigan</p>
             <p className="wp--description">
-              Shanice's cousin and fellow Jonas Brothers fan. She enjoys beers
-              and bonfires.
+              Shanice's cousin. She enjoys the three B's: beers, bonfires and the (Jonas) Brothers.
+              Also, is a complete badass who paints cars - just check out her <a href="https://www.tiktok.com/@kiellem" target="_blank">TikTok</a>!
             </p>
           </div>
         </div>
         <img src={Branch} className="wp--break" />
         <div className="wp--container">
-          <div className="wp--text">
+          <div className="wp--text"> 
             <p className="wp--name">Faith Lopez</p>
             <p className="wp--description">
-              Another cousin. She has a boyfriend named Ryan but you probably
-              won't meet him at our event.
+              Shanice's second cousin. Tougher than she looks and has a black belt to prove it!
             </p>
           </div>
           <div className="wp--img-container">
@@ -79,7 +78,7 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Brittany Sriranpong</p>
             <p className="wp--description">
-              Actually not a cousin. Challenge her to a handstand.
+              Actually not technically a cousin, but has known Shanice since they were littles. Challenge her to a handstand!
             </p>
           </div>
         </div>
