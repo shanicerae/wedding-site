@@ -28,7 +28,8 @@ function CovidBanner() {
               Out of an abundance of caution for the health and safety of our
               loved ones, we have had to make the decision to tweak our wedding
               plans.
-              <p></p>
+            </p>
+            <p>
               An intimate ceremony will be held with our immediate family and
               wedding party on our original September date.
             </p>

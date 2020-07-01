@@ -559,3 +559,13 @@ a {
     font-size: 1rem;
   }
 }
+
+@media (max-height: 40rem) {
+  .banner-text--expanded {
+    padding: 15%;
+  }
+
+  .banner-text--expanded p {
+    font-size: 0.85rem;
+  }
+}
