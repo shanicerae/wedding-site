@@ -477,6 +477,11 @@ a {
   font-size: 0.75rem;
 }
 
+.wp--break {
+  width: 150px;
+  padding: 10px;
+}
+
 @media (min-width: 40rem) {
   .show-mob {
     display: none;

@@ -5,6 +5,8 @@ import Hershey from "./images/wedding-party/hershey.jpg";
 import Kielle from "./images/wedding-party/kielle.jpg";
 import Faith from "./images/wedding-party/faith.jpg";
 import Brittany from "./images/wedding-party/brittany.jpg";
+import Branch from "./images/branch.png";
+import Branch2 from "./images/branch-2.png";
 
 function WeddingParty() {
   return (
@@ -23,35 +25,43 @@ function WeddingParty() {
           </div>
           <div className="wp--text">
             <p className="wp--name">Maiysha McSavaney</p>
-            <p className="wp--description">
-              Shanice's favourite sister. She's ok.
-            </p>
+            <p className="wp--description">Shanice's favourite sister.</p>
           </div>
         </div>
+        <img src={Branch} className="wp--break" />
         <div className="wp--container">
           <div className="wp--text">
             <p className="wp--name">Hershey Rendon</p>
             <p className="wp--description">
-              Shanice's cousin. Her son is a cute bb.
+              Shanice's cousin. A standard millenial - enjoys coffee, wine and
+              charcuterie boards.
             </p>
           </div>
           <div className="wp--img-container">
             <img src={Hershey} alt="Hershey" className="wp--img"></img>
           </div>
         </div>
+        <img src={Branch2} className="wp--break" />
         <div className="wp--container">
           <div className="wp--img-container">
             <img src={Kielle} alt="Kielle" className="wp--img"></img>
           </div>
           <div className="wp--text">
             <p className="wp--name">Kielle Marasigan</p>
-            <p className="wp--description">Another cousin</p>
+            <p className="wp--description">
+              Shanice's cousin and fellow Jonas Brothers fan. She enjoys beers
+              and bonfires.
+            </p>
           </div>
         </div>
+        <img src={Branch} className="wp--break" />
         <div className="wp--container">
           <div className="wp--text">
             <p className="wp--name">Faith Lopez</p>
-            <p className="wp--description">Another cousin</p>
+            <p className="wp--description">
+              Another cousin. She has a boyfriend named Ryan but you probably
+              won't meet him at our event.
+            </p>
           </div>
           <div className="wp--img-container">
             <img
@@ -61,6 +71,7 @@ function WeddingParty() {
             ></img>
           </div>
         </div>
+        <img src={Branch2} className="wp--break" />
         <div className="wp--container">
           <div className="wp--img-container">
             <img src={Brittany} alt="Brittany" className="wp--img"></img>
@@ -68,7 +79,7 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Brittany Sriranpong</p>
             <p className="wp--description">
-              Not a cousin!!!! A basic bitch who likes jello shots
+              Actually not a cousin. Challenge her to a handstand.
             </p>
           </div>
         </div>
@@ -89,6 +100,7 @@ function WeddingParty() {
             </p>
           </div>
         </div>
+        <img src={Branch} className="wp--break" />
         <div className="wp--container">
           <div className="wp--text">
             <p className="wp--name">Justin Heron</p>
@@ -102,6 +114,7 @@ function WeddingParty() {
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
           </div>
         </div>
+        <img src={Branch2} className="wp--break" />
         <div className="wp--container">
           <div className="wp--img-container">
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
@@ -113,6 +126,7 @@ function WeddingParty() {
             </p>
           </div>
         </div>
+        <img src={Branch} className="wp--break" />
         <div className="wp--container">
           <div className="wp--text">
             <p className="wp--name">Ruby Bonilla</p>
@@ -126,6 +140,7 @@ function WeddingParty() {
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
           </div>
         </div>
+        <img src={Branch2} className="wp--break" />
         <div className="wp--container">
           <div className="wp--img-container">
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
