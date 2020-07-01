@@ -25,10 +25,20 @@ function WeddingParty() {
           </div>
           <div className="wp--text">
             <p className="wp--name">Maiysha McSavaney</p>
-            <p className="wp--description">Shanice's favourite (and only) sister. An <a href="https://www.youtube.com/channel/UC4yXqHGZ5rFyK9neF3KlfTg/featured" target="_blank">aspiring YouTuber</a> currently studying at BCIT.</p>
+            <p className="wp--description">
+              Shanice's favourite (and only) sister. An{" "}
+              <a
+                href="https://www.youtube.com/channel/UC4yXqHGZ5rFyK9neF3KlfTg/featured"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                aspiring YouTuber
+              </a>{" "}
+              currently studying at BCIT.
+            </p>
           </div>
         </div>
-        <img src={Branch} className="wp--break" />
+        <img src={Branch} className="wp--break" alt="Branch"/>
         <div className="wp--container">
           <div className="wp--text">
             <p className="wp--name">Hershey Rendon</p>
@@ -41,7 +51,7 @@ function WeddingParty() {
             <img src={Hershey} alt="Hershey" className="wp--img"></img>
           </div>
         </div>
-        <img src={Branch2} className="wp--break" />
+        <img src={Branch2} className="wp--break"  alt="Branch"/>
         <div className="wp--container">
           <div className="wp--img-container">
             <img src={Kielle} alt="Kielle" className="wp--img"></img>
@@ -49,17 +59,27 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Kielle Marasigan</p>
             <p className="wp--description">
-              Shanice's cousin. She enjoys the three B's: beers, bonfires and the (Jonas) Brothers.
-              Also, is a complete badass who paints cars - just check out her <a href="https://www.tiktok.com/@kiellem" target="_blank">TikTok</a>!
+              Shanice's cousin. She enjoys the three B's: beers, bonfires and
+              the (Jonas) Brothers. Also, is a complete badass who paints cars -
+              just check out her{" "}
+              <a
+                href="https://www.tiktok.com/@kiellem"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TikTok
+              </a>
+              !
             </p>
           </div>
         </div>
-        <img src={Branch} className="wp--break" />
+        <img src={Branch} className="wp--break" alt="Branch" />
         <div className="wp--container">
-          <div className="wp--text"> 
+          <div className="wp--text">
             <p className="wp--name">Faith Lopez</p>
             <p className="wp--description">
-              Shanice's second cousin. Tougher than she looks and has a black belt to prove it!
+              Shanice's second cousin. Tougher than she looks and has a black
+              belt to prove it!
             </p>
           </div>
           <div className="wp--img-container">
@@ -70,7 +90,7 @@ function WeddingParty() {
             ></img>
           </div>
         </div>
-        <img src={Branch2} className="wp--break" />
+        <img src={Branch2} className="wp--break" alt="Branch"/>
         <div className="wp--container">
           <div className="wp--img-container">
             <img src={Brittany} alt="Brittany" className="wp--img"></img>
@@ -78,7 +98,8 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Brittany Sriranpong</p>
             <p className="wp--description">
-              Actually not technically a cousin, but has known Shanice since they were littles. Challenge her to a handstand!
+              Actually not technically a cousin, but has known Shanice since
+              they were littles. Challenge her to a handstand!
             </p>
           </div>
         </div>
@@ -99,7 +120,7 @@ function WeddingParty() {
             </p>
           </div>
         </div>
-        <img src={Branch} className="wp--break" />
+        <img src={Branch} className="wp--break" alt="Branch"/>
         <div className="wp--container">
           <div className="wp--text">
             <p className="wp--name">Justin Heron</p>
@@ -113,7 +134,7 @@ function WeddingParty() {
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
           </div>
         </div>
-        <img src={Branch2} className="wp--break" />
+        <img src={Branch2} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--img-container">
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
@@ -125,7 +146,7 @@ function WeddingParty() {
             </p>
           </div>
         </div>
-        <img src={Branch} className="wp--break" />
+        <img src={Branch} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--text">
             <p className="wp--name">Ruby Bonilla</p>
@@ -139,7 +160,7 @@ function WeddingParty() {
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
           </div>
         </div>
-        <img src={Branch2} className="wp--break" />
+        <img src={Branch2} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--img-container">
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
