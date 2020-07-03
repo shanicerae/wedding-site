@@ -24,7 +24,7 @@ function WeddingParty() {
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
           </div>
           <div className="wp--text">
-            <p className="wp--name">Maiysha McSavaney</p>
+            <p className="wp--name">Maiysha McSavaney (Maid of Honour) </p>
             <p className="wp--description">
               Shanice's favourite (and only) sister. An{" "}
               <a
@@ -112,11 +112,9 @@ function WeddingParty() {
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
           </div>
           <div className="wp--text">
-            <p className="wp--name">Carlos Arevalo</p>
+            <p className="wp--name">Carlos Arevalo (Best Man) </p>
             <p className="wp--description">
-              He’s been my older brother my WHOLE life. He loves TMNT and Tupac,
-              but hates when I tell him tupac puns (usted-pac is the formal of
-              tupac) and loves obscure 90’s references.
+            Josue’s brother his WHOLE life. He loves TMNT and Tupac, but hates when Josue tells him Tupac puns (used-pac is the formal of tu-pac) and loves obscure 90’s references. 
             </p>
           </div>
         </div>
@@ -125,9 +123,8 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Justin Heron</p>
             <p className="wp--description">
-              Been friends with this guy since Grade 8. He’s a big history buff
-              and a bigger nerd. Need something to talk to him about? Ask about
-              The War of 1812 or Star Wars (Hope you have four hours).
+            Residing in London, England, Josue has been friends with him since Grade 8. He’s a big history buff and a bigger nerd. Need something to talk about? Ask about The War of 1812 or Star Wars (Hope you have 4 hours).
+
             </p>
           </div>
           <div className="wp--img-container">
@@ -142,7 +139,7 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Jason Ng</p>
             <p className="wp--description">
-              He’s my brother from another mother.
+            Josue’s brother from another mother, Jason’s passion lies in gadgets and Marvel, but nothing compares to his love for sour keys. He cannot turn one down no matter what. Want to break the ice? Sour is the key.
             </p>
           </div>
         </div>
@@ -151,9 +148,7 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Ruby Bonilla</p>
             <p className="wp--description">
-              My grooms(wo)man - she earns a special place in this group. She’s
-              my sister-in-law and a good friend. She loves her family and shoes
-              and can do a wicked Jamaican accent. Just ask her!
+            This grooms(wo)man earns a special place on this list. She’s the older sister Josue never had and one of his closest friends. She loves her family and shoes and can do a wicked Jamaican accent. Just ask her!
             </p>
           </div>
           <div className="wp--img-container">
@@ -168,9 +163,7 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Ashton Sriranpong</p>
             <p className="wp--description">
-              Shanice has known him since they were tiny and I’ve gotten to know
-              him since Shanice and I have gotten together. He’s my workout
-              partner.
+            An honour to have him on this roster, Ash has known Shanice since they were littles and now works out with Josue. A truly interesting dude - he can speak Arabic and dreams of owning a 1991 Acura NSX.
             </p>
           </div>
         </div>
