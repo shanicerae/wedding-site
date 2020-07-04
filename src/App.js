@@ -76,8 +76,8 @@ function App() {
               through Southeast Asia or Spain
             </p>
             <p>
-              <span className="bold">Favourite thing to do together:</span> I
-              Food, food and eat. When we're not eating, we're watching the Food
+              <span className="bold">Favourite thing to do together:</span>
+              Food, food and more food. When we're not trying out a new restaurant, we're watching the Food
               Network.
             </p>
             <p>

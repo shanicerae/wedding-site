@@ -36,7 +36,7 @@ function CovidBanner() {
             <p>
               But what is a wedding without the people we love most? We are
               looking forward to celebrating with you all at our reception on
-              April 30, 2021.As we keep a close eye on current events, we hope
+              April 30, 2021. As we keep a close eye on current events, we hope
               that we will be able to see you all safely next year.
             </p>
             <p>

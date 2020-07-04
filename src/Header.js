@@ -47,21 +47,21 @@ function Header() {
         <div className="main-nav">
           <ul className="nav-bar--link-wrapper">
             <li className="nav-bar-item">
-              <NavLink to="/info">Schedule of Events</NavLink>
+              <NavLink className="dark-blue" to="/info">Schedule of Events</NavLink>
             </li>
             <li className="nav-bar-item">
-              <NavLink to="/wedding-party">Wedding Party</NavLink>
+              <NavLink className="dark-blue" to="/wedding-party">Wedding Party</NavLink>
             </li>
             <li className="nav-bar-item">
-              <NavLink to="/" onClick={closeMobileNav}>
+              <NavLink className="dark-blue"  to="/" onClick={closeMobileNav}>
                 <img src={Monogram} className="nav-bar--monogram" alt="J + S" />
               </NavLink>
             </li>
             <li className="nav-bar-item">
-              <NavLink to="/registry">Registry</NavLink>
+              <NavLink className="dark-blue"  to="/registry">Registry</NavLink>
             </li>
             <li className="nav-bar-item">
-              <NavLink to="/rsvp">RSVP</NavLink>
+              <NavLink className="dark-blue"  to="/rsvp">RSVP</NavLink>
             </li>
           </ul>
         </div>
@@ -69,19 +69,19 @@ function Header() {
       <div className="mobile-nav">
         <ul>
           <li className="mobile-nav--item">
-            <NavLink to="/">Home</NavLink>
+            <NavLink className="dark-blue"  to="/">Home</NavLink>
           </li>
           <li className="mobile-nav--item">
-            <NavLink to="/info">Schedule of Events</NavLink>
+            <NavLink className="dark-blue"  to="/info">Schedule of Events</NavLink>
           </li>
           <li className="mobile-nav--item">
-            <NavLink to="/rsvp">RSVP</NavLink>
+            <NavLink className="dark-blue" to="/rsvp">RSVP</NavLink>
           </li>
           <li className="mobile-nav--item">
-            <NavLink to="/wedding-party">Wedding Party</NavLink>
+            <NavLink className="dark-blue" to="/wedding-party">Wedding Party</NavLink>
           </li>
           <li className="mobile-nav--item">
-            <NavLink to="/registry">Registry</NavLink>
+            <NavLink className="dark-blue" to="/registry">Registry</NavLink>
           </li>
         </ul>
       </div>

@@ -73,13 +73,8 @@ hr.dark-blue {
   background-color: var(--light-blue);
 }
 
-a:link,a:visited,a:active.dark-blue {
+a:link.dark-blue,a:visited.dark-blue,a:active.dark-blue {
   color: var(--dark-blue);
-}
-
-a:hover.dark-blue {
-  color: var(--blush);
-  text-decoration: none;
 }
 
 .header-image {
@@ -255,6 +250,7 @@ a:hover.dark-blue {
 .nav-bar-item {
   display: flex;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .mobile-nav {
@@ -304,8 +300,7 @@ a:hover.dark-blue {
 }
 
 a {
-  color: var(--dark-blue);
-  text-decoration: none;
+  color: rgb(110, 156, 235);
   letter-spacing: 1px;
   padding: 10px 0;
 }
