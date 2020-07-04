@@ -39,7 +39,7 @@ ul {
 }
 
 :root {
-  --light-blue: rgb(208, 235, 255);
+  --light-blue: rgb(234, 246, 255);
   --dark-blue: rgb(1, 62, 166);
   --blush: rgb(250, 229, 227);
   --green: rgb(45, 83, 15);
@@ -160,6 +160,7 @@ a:hover.dark-blue {
 .banner-text--arrow {
   position: relative;
   height: 15px;
+  margin-left: 15px;
 }
 
 .banner-text--arrow:hover,:active {
@@ -483,6 +484,32 @@ a {
   padding: 10px;
 }
 
+.footer {
+  background-color: white;
+  padding: 15px;
+  font-size: 0.75rem;
+}
+
+.footer--title {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.35rem;
+}
+
+.footer--content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer--content p {
+  margin: 0;
+}
+
+.footer--content div {
+  width: 80%;
+  margin: 0 auto 10px;
+}
+
 @media (min-width: 40rem) {
   .show-mob {
     display: none;
@@ -557,6 +584,24 @@ a {
   
   .wp--description {
     font-size: 1rem;
+  }
+
+  .footer--content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer--content div {
+    margin: 0;
+  }
+
+  .footer--credit {
+    text-align: left;
+  }
+  
+  .footer--contact {
+    max-width: 30%;
+    text-align: right;
   }
 }
 
