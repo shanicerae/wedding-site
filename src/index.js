@@ -8,12 +8,14 @@ import WeddingParty from "./WeddingParty.js";
 import Registry from "./Registry.js";
 import Header from "./Header.js";
 import Footer from "./Footer.js";
+import ScrollToTop from "./ScrollToTop.js";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const routing = (
   <Router basename={process.env.PUBLIC_URL}>
+    <ScrollToTop />
     <Header />
     <div className="wrapper">
       <Switch>
