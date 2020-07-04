@@ -15,7 +15,7 @@ import Branch2 from "./images/branch-2.png";
 
 function WeddingParty() {
   return (
-    <div className="center content-text section">
+    <div className="center content-text section bg--light-blue">
       <h2 className="alt-content-title">Meet our wedding party</h2>
       <p className="content-subtitle">
         We’ve known all these wonderful people for many, many years and would
@@ -122,8 +122,8 @@ function WeddingParty() {
             <p className="wp--name alt-content-title">Best Man</p>
             <p className="wp--description">
               Josué’s brother his WHOLE life. He loves TMNT and Tupac, but hates
-              when Josué tells him Tupac puns (usted-pac is the formal of tu-pac)
-              and loves obscure 90’s references.
+              when Josué tells him Tupac puns (usted-pac is the formal of
+              tu-pac) and loves obscure 90’s references.
             </p>
           </div>
         </div>
@@ -163,9 +163,16 @@ function WeddingParty() {
             <p className="wp--name">Ruby Bonilla</p>
             <p className="wp--description">
               This grooms(wo)man earns a special place on this list. She’s the
-              older sister Josué never had and one of his closest friends. This
-              <a href="https://www.instagram.com/rubystyles.lettering/">awesome calligrapher</a> loves her family and shoes and can do a
-              wicked Jamaican accent. Just ask her!
+              older sister Josué never had and one of his closest friends. This{" "}
+              <a
+                href="https://www.instagram.com/rubystyles.lettering/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                awesome calligrapher
+              </a>{" "}
+              loves her family and shoes and can do a wicked Jamaican accent.
+              Just ask her!
             </p>
           </div>
           <div className="wp--img-container">
