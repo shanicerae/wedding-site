@@ -9,7 +9,7 @@ import Registry from "./Registry.js";
 import Header from "./Header.js";
 import Footer from "./Footer.js";
 import ScrollToTop from "./ScrollToTop.js";
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch, Redirect } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -26,7 +26,7 @@ const routing = (
         <Route path="/wedding-party" component={WeddingParty} />
         <Route path="/registry" component={Registry} />
         <Route path="/" component={App} />
-        {/* <Route component={Notfound} /> TODO: Redirect to App */}
+        <Redirect to="/" />
       </Switch>
     </div>
     <Footer />
