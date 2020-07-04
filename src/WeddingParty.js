@@ -5,6 +5,11 @@ import Hershey from "./images/wedding-party/hershey.jpg";
 import Kielle from "./images/wedding-party/kielle.jpg";
 import Faith from "./images/wedding-party/faith.jpg";
 import Brittany from "./images/wedding-party/brittany.jpg";
+import Carlos from "./images/wedding-party/CarlosJr.jpg";
+import Justin from "./images/wedding-party/Justin.jpg";
+import Jason from "./images/wedding-party/Jason.PNG";
+import Ruby from "./images/wedding-party/Ruby.jpg";
+import Ashton from "./images/wedding-party/Ashton.jpg";
 import Branch from "./images/branch.png";
 import Branch2 from "./images/branch-2.png";
 
@@ -24,7 +29,8 @@ function WeddingParty() {
             <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
           </div>
           <div className="wp--text">
-            <p className="wp--name">Maiysha McSavaney (Maid of Honour) </p>
+            <p className="wp--name">Maiysha McSavaney</p>
+            <p className="wp--name alt-content-title">Maid of Honour</p>
             <p className="wp--description">
               Shanice's favourite (and only) sister. An{" "}
               <a
@@ -109,12 +115,13 @@ function WeddingParty() {
         <p className="alt-content-title">The ones who have Josué's back</p>
         <div className="wp--container">
           <div className="wp--img-container">
-            <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
+            <img src={Carlos} alt="Carlos" className="wp--img"></img>
           </div>
           <div className="wp--text">
-            <p className="wp--name">Carlos Arevalo (Best Man) </p>
+            <p className="wp--name">Carlos Arevalo</p>
+            <p className="wp--name alt-content-title">Best Man</p>
             <p className="wp--description">
-            Josue’s brother his WHOLE life. He loves TMNT and Tupac, but hates when Josue tells him Tupac puns (used-pac is the formal of tu-pac) and loves obscure 90’s references. 
+            Josue’s brother his WHOLE life. He loves TMNT and Tupac, but hates when Josue tells him Tupac puns (usted-pac is the formal of tu-pac) and loves obscure 90’s references. 
             </p>
           </div>
         </div>
@@ -128,13 +135,13 @@ function WeddingParty() {
             </p>
           </div>
           <div className="wp--img-container">
-            <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
+            <img src={Justin} alt="Justin" className="wp--img"></img>
           </div>
         </div>
         <img src={Branch2} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--img-container">
-            <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
+            <img src={Jason} alt="Jason" className="wp--img"></img>
           </div>
           <div className="wp--text">
             <p className="wp--name">Jason Ng</p>
@@ -148,17 +155,17 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Ruby Bonilla</p>
             <p className="wp--description">
-            This grooms(wo)man earns a special place on this list. She’s the older sister Josue never had and one of his closest friends. She loves her family and shoes and can do a wicked Jamaican accent. Just ask her!
+            This grooms(wo)man earns a special place on this list. She’s the older sister Josué never had and one of his closest friends. She loves her family and shoes and can do a wicked Jamaican accent. Just ask her!
             </p>
           </div>
           <div className="wp--img-container">
-            <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
+            <img src={Ruby} alt="Ruby" className="wp--img"></img>
           </div>
         </div>
         <img src={Branch2} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--img-container">
-            <img src={Maiysha} alt="Maiysha" className="wp--img"></img>
+            <img src={Ashton} alt="Ashton" className="wp--img"></img>
           </div>
           <div className="wp--text">
             <p className="wp--name">Ashton Sriranpong</p>
