@@ -41,6 +41,7 @@ function WeddingParty() {
                 aspiring YouTuber
               </a>{" "}
               currently studying at BCIT.
+              On most days, you'll find her eating sushi at Tokyo Joe's or riding her bike around Steveston.
             </p>
           </div>
         </div>
@@ -49,8 +50,8 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Hershey Rendon</p>
             <p className="wp--description">
-              Shanice's cousin. A standard millenial - loves coffee, wine and
-              charcuterie boards.
+              Shanice's cousin. A budding photographer who actually took all of our photos on this site!
+              She often relies on coffee (sometimes with a shot of Bailey's!) to keep up with her energetic little son.
             </p>
           </div>
           <div className="wp--img-container">
@@ -85,7 +86,8 @@ function WeddingParty() {
             <p className="wp--name">Faith Lopez</p>
             <p className="wp--description">
               Shanice's second cousin. Tougher than she looks and has a black
-              belt to prove it!
+              belt to prove it! We're taking advantage of all the time we get with her
+              before she packs up and leaves us for the Philippines on a humanitarian trip.
             </p>
           </div>
           <div className="wp--img-container">
@@ -105,7 +107,8 @@ function WeddingParty() {
             <p className="wp--name">Brittany Sriranpong</p>
             <p className="wp--description">
               Actually not technically a cousin, but has known Shanice since
-              they were littles. Challenge her to a handstand!
+              they were littles. Now, they enjoy drinking white wine with berries together.
+              Challenge her to a handstand or a game of Twister!
             </p>
           </div>
         </div>
