@@ -247,7 +247,7 @@ a:hover.dark-blue {
 
 .mobile-nav--monogram {
   width: 100px;
-  height: auto;
+  max-height: 100px;
   object-fit: cover;
 }
 
