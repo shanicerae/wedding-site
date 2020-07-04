@@ -38,7 +38,7 @@ function WeddingParty() {
             </p>
           </div>
         </div>
-        <img src={Branch} className="wp--break" alt="Branch"/>
+        <img src={Branch} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--text">
             <p className="wp--name">Hershey Rendon</p>
@@ -51,7 +51,7 @@ function WeddingParty() {
             <img src={Hershey} alt="Hershey" className="wp--img"></img>
           </div>
         </div>
-        <img src={Branch2} className="wp--break"  alt="Branch"/>
+        <img src={Branch2} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--img-container">
             <img src={Kielle} alt="Kielle" className="wp--img"></img>
@@ -90,7 +90,7 @@ function WeddingParty() {
             ></img>
           </div>
         </div>
-        <img src={Branch2} className="wp--break" alt="Branch"/>
+        <img src={Branch2} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--img-container">
             <img src={Brittany} alt="Brittany" className="wp--img"></img>
@@ -114,17 +114,21 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Carlos Arevalo (Best Man) </p>
             <p className="wp--description">
-            Josue’s brother his WHOLE life. He loves TMNT and Tupac, but hates when Josue tells him Tupac puns (used-pac is the formal of tu-pac) and loves obscure 90’s references. 
+              Josue’s brother his WHOLE life. He loves TMNT and Tupac, but hates
+              when Josue tells him Tupac puns (used-pac is the formal of tu-pac)
+              and loves obscure 90’s references.
             </p>
           </div>
         </div>
-        <img src={Branch} className="wp--break" alt="Branch"/>
+        <img src={Branch} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--text">
             <p className="wp--name">Justin Heron</p>
             <p className="wp--description">
-            Residing in London, England, Josue has been friends with him since Grade 8. He’s a big history buff and a bigger nerd. Need something to talk about? Ask about The War of 1812 or Star Wars (Hope you have 4 hours).
-
+              Residing in London, England, Josue has been friends with him since
+              Grade 8. He’s a big history buff and a bigger nerd. Need something
+              to talk about? Ask about The War of 1812 or Star Wars (Hope you
+              have 4 hours).
             </p>
           </div>
           <div className="wp--img-container">
@@ -139,7 +143,10 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Jason Ng</p>
             <p className="wp--description">
-            Josue’s brother from another mother, Jason’s passion lies in gadgets and Marvel, but nothing compares to his love for sour keys. He cannot turn one down no matter what. Want to break the ice? Sour is the key.
+              Josue’s brother from another mother, Jason’s passion lies in
+              gadgets and Marvel, but nothing compares to his love for sour
+              keys. He cannot turn one down no matter what. Want to break the
+              ice? Sour is the key.
             </p>
           </div>
         </div>
@@ -148,7 +155,10 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Ruby Bonilla</p>
             <p className="wp--description">
-            This grooms(wo)man earns a special place on this list. She’s the older sister Josue never had and one of his closest friends. She loves her family and shoes and can do a wicked Jamaican accent. Just ask her!
+              This grooms(wo)man earns a special place on this list. She’s the
+              older sister Josue never had and one of his closest friends. This
+              awesome calligrapher loves her family and shoes and can do a
+              wicked Jamaican accent. Just ask her!
             </p>
           </div>
           <div className="wp--img-container">
@@ -163,7 +173,10 @@ function WeddingParty() {
           <div className="wp--text">
             <p className="wp--name">Ashton Sriranpong</p>
             <p className="wp--description">
-            An honour to have him on this roster, Ash has known Shanice since they were littles and now works out with Josue. A truly interesting dude - he can speak Arabic and dreams of owning a 1991 Acura NSX.
+              An honour to have him on this roster, Ash has known Shanice since
+              they were littles and now works out with Josue. A truly
+              interesting dude - he can speak Arabic and dreams of owning a 1991
+              Acura NSX.
             </p>
           </div>
         </div>

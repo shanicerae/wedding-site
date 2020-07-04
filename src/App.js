@@ -77,8 +77,8 @@ function App() {
             </p>
             <p>
               <span className="bold">Favourite thing to do together:</span> I
-              don’t know if you’ve noticed a theme so far, but we really enjoy
-              watching TV together. That and eating food.
+              Food, food and eat. When we're not eating, we're watching the Food
+              Network.
             </p>
             <p>
               <span className="bold">Dogs or cats?:</span> Doggos for sho’
