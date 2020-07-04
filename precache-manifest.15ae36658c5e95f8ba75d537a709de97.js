@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46e47039631b88a0b23ef479709bfadf",
+    "revision": "e66ef1347765c985bf3e2051c996dc69",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "bf46de0d787734796492",
+    "revision": "d9db97c4d3f66774e995",
     "url": "/static/css/main.7fd82725.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.5daa7bdb.chunk.js"
   },
   {
-    "revision": "bf46de0d787734796492",
-    "url": "/static/js/main.cfad2774.chunk.js"
+    "revision": "d9db97c4d3f66774e995",
+    "url": "/static/js/main.ca7dbd70.chunk.js"
   },
   {
     "revision": "fc6b7aa3716f3dedac8e",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/PlayfairDisplay.20e1565d.ttf"
   },
   {
-    "revision": "8f81e7e09fc8fa9d3a40fa1a6d381fc1",
-    "url": "/static/media/Ruby.5cf3f4e3.jpg"
+    "revision": "6f7c896f99b8ad0de7ab5144ef8f3f8e",
+    "url": "/static/media/Ruby.cf6ca394.jpg"
   },
   {
     "revision": "d02befc8fdd8e5315fb21fa7f38fd55a",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/coffee-shop.22d1a218.jpeg"
   },
   {
-    "revision": "6020c86065a9dd5b28bddfbb60bd90f6",
-    "url": "/static/media/faith.c4b5f64c.jpg"
+    "revision": "5e76d5bfc5c0827d0f3d2af0feafcbbe",
+    "url": "/static/media/faith.ca0fa507.jpg"
   },
   {
     "revision": "b44758d7b9e5e788bbe40a21ef0aeb93",
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kielle.29323e13.jpg"
   },
   {
-    "revision": "357ab229ba27d556ee5fd57ae493f922",
-    "url": "/static/media/maiysha.c64af52d.jpg"
+    "revision": "c12666801bf9ac41dce14e2bdd069346",
+    "url": "/static/media/maiysha.6ce6796d.jpg"
   },
   {
     "revision": "55f9717e0149c050aee8b15febd6ab89",
