@@ -48,7 +48,7 @@ function App() {
           <p>
             We met while working at The Bay together. It was a rainy day in late
             January and Shanice asked him if he’d go to the Hot Chocolate
-            Festival with her. Then in February Josue asked her if she’d do Dine
+            Festival with her. Then in February Josué asked her if she’d do Dine
             Out Vancouver with him. Pretty soon they realized they enjoyed much
             more than just the food and have been together ever since.
           </p>
@@ -77,8 +77,8 @@ function App() {
             </p>
             <p>
               <span className="bold">Favourite thing to do together:</span> I
-              don’t know if you’ve noticed a theme so far, but we really enjoy
-              watching TV together. That and eating food.
+              Food, food and eat. When we're not eating, we're watching the Food
+              Network.
             </p>
             <p>
               <span className="bold">Dogs or cats?:</span> Doggos for sho’
