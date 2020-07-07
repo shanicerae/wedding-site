@@ -222,6 +222,18 @@ function WeddingParty() {
             </p>
           </div>
         </div>
+        {/* <img src={Branch} className="wp--break" alt="Branch" />
+        <div className="wp--container">
+          <div className="wp--text--kids">
+            <p className="wp--name">Smith McSavaney</p>
+            <p className="wp--name alt-content-title">Jr. Groomsman</p>
+            <p className="wp--description">
+              Shanice's cousin and a master of Dungeons and Dragons, Smith is
+              one creative guy. He loves to write and even creates his own
+              comics! He's also an expert on anything related to dinosaurs.
+            </p>
+          </div>
+        </div> */}
       </div>
       <div className="content-wrapper">
         <h3 className="content-title--nop">Our Little Helpers</h3>
