@@ -16,7 +16,7 @@ function App() {
           <span className="intro--names">
             Josué David Arévalo&nbsp;
             <br className="show-mob" />
-            &&nbsp;
+            <span className="intro--and">&nbsp;&&nbsp;&nbsp;</span>
             <br className="show-mob" />
             Shanice Rae McSavaney
             <br />
@@ -69,16 +69,16 @@ function App() {
             <p>
               <span className="bold">Best Meal:</span> Hell’s Kitchen in Las
               Vegas, though L'Abattoir on the night we got engaged is a pretty
-              close runner-up.
+              close runner-up
             </p>
             <p>
               <span className="bold">Dream Vacation:</span> Eating our way
               through Southeast Asia or Spain
             </p>
             <p>
-              <span className="bold">Favourite thing to do together:</span>
-              Food, food and more food. When we're not trying out a new restaurant, we're watching the Food
-              Network.
+              <span className="bold">Favourite thing to do together: </span>
+              Food, food and more food - when we're not trying out a new
+              restaurant, we're watching the Food Network
             </p>
             <p>
               <span className="bold">Dogs or cats?:</span> Doggos for sho’
@@ -86,7 +86,7 @@ function App() {
             <p>
               <span className="bold">How he proposed:</span> I think the only
               words that came out were “…-arry me?” The beginning part of that
-              was only mouthed. She saw the ring and it was enough.
+              was only mouthed. She saw the ring and it was enough
             </p>
           </div>
         </div>

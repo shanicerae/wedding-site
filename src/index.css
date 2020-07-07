@@ -214,7 +214,8 @@ a:link.dark-blue,a:visited.dark-blue,a:active.dark-blue {
 }
 
 .signature-text {
-  font-family: 'Thank You';
+  font-family: 'Raustila';
+  font-size: 1.7rem;
 }
 
 .nav-bar {
@@ -383,8 +384,9 @@ a {
 }
 
 .intro--names {
-  font-size: 1.2rem;
-  font-family: 'Thank You';
+  font-size: 2rem;
+  font-family: 'Raustila';
+  vertical-align: middle;
 }
 
 .intro--text {
@@ -462,6 +464,10 @@ a {
 .wp--text {
   width: 50%;
   padding: 0 5px;
+}
+
+.wp--text--kids {
+  width: 70%;
 }
 
 .wp--name {
@@ -556,10 +562,6 @@ a {
     font-size: 1rem;
     padding: 0 20px;
   }
-
-  .intro--names {
-    font-size: 1.5rem;
-  }
   
   .intro--text {
     font-size: 1.2rem;
@@ -571,6 +573,10 @@ a {
 
   .wp--text {
     width: 180px;
+  }
+
+  .wp--text--kids {
+    width: 250px;
   }
 
   .wp--name {

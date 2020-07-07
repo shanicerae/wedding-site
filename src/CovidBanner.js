@@ -44,7 +44,10 @@ function CovidBanner() {
               Please look to this page for the most up-to-date information
               regarding our special day.
             </p>
-            <p className="signature-text">Much love, Josué and Shanice</p>
+            <p>
+              Much love,{" "}
+              <span className="signature-text">Josué and Shanice</span>
+            </p>
           </div>
           <img
             src={BottomBouquet}
