@@ -267,7 +267,7 @@ function WeddingParty() {
         <img src={Branch} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--text--kids">
-            <p className="wp--name">Leora </p>
+            <p className="wp--name">Leora Teplitsky</p>
             <p className="wp--name alt-content-title">Flower Girl</p>
             <p className="wp--description">
               This little sweetheart is the daughter of Shanice's god-sister and
