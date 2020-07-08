@@ -16,11 +16,13 @@ import Branch2 from "./images/branch-2.png";
 function WeddingParty() {
   return (
     <div className="center content-text section bg--light-blue">
-      <h2 className="alt-content-title">Meet our wedding party</h2>
-      <p className="content-subtitle">
-        We’ve known all these wonderful people for many, many years and would
-        love for you to get to know a little about them.
-      </p>
+      <div className="content-wrapper">
+        <h2 className="alt-content-title">Meet our wedding party</h2>
+        <p className="content-subtitle">
+          We’ve known these wonderful people for many, many years and would love
+          for you to get to know a little about them.
+        </p>
+      </div>
       <div className="content-wrapper">
         <h3 className="content-title--nop">The Bride Tribe</h3>
         <p className="alt-content-title">Shanice's nearest and dearest</p>
@@ -222,7 +224,7 @@ function WeddingParty() {
             </p>
           </div>
         </div>
-        {/* <img src={Branch} className="wp--break" alt="Branch" />
+        <img src={Branch} className="wp--break" alt="Branch" />
         <div className="wp--container">
           <div className="wp--text--kids">
             <p className="wp--name">Smith McSavaney</p>
@@ -230,10 +232,10 @@ function WeddingParty() {
             <p className="wp--description">
               Shanice's cousin and a master of Dungeons and Dragons, Smith is
               one creative guy. He loves to write and even creates his own
-              comics! He's also an expert on anything related to dinosaurs.
+              comics! He's also an expert on anything related to science.
             </p>
           </div>
-        </div> */}
+        </div>
       </div>
       <div className="content-wrapper">
         <h3 className="content-title--nop">Our Little Helpers</h3>
@@ -254,11 +256,23 @@ function WeddingParty() {
         <div className="wp--container">
           <div className="wp--text--kids">
             <p className="wp--name">Alexander Scott</p>
-            <p className="wp--name alt-content-title">Ring Bearer</p>
+            <p className="wp--name alt-content-title">Coin Bearer</p>
             <p className="wp--description">
               This wild child is Shanice and Josué's godson and nephew. Want to
               grab his attention? He's into anything to do with the Avengers,
               Teenage Mutant Ninja Turtles and Paw Patrol.
+            </p>
+          </div>
+        </div>
+        <img src={Branch} className="wp--break" alt="Branch" />
+        <div className="wp--container">
+          <div className="wp--text--kids">
+            <p className="wp--name">Leora </p>
+            <p className="wp--name alt-content-title">Flower Girl</p>
+            <p className="wp--description">
+              This little sweetheart is the daughter of Shanice's god-sister and
+              always has a friendly smile on her face. She loves chocolate and
+              recently learned to sing the whole alphabet!
             </p>
           </div>
         </div>
