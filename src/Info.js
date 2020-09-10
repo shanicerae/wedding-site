@@ -13,6 +13,7 @@ function Info() {
           <div>
             <img src={CeremonyIcon} className="info--icon" alt="Church bells" />
             <p className="info--date">September 12, 2020</p>
+            <p><b>2:00PM PST</b></p>
             St. Paul Parish
             <br />
             8251 St Albans Rd
@@ -27,8 +28,21 @@ function Info() {
             </a>
             <br />
             <br />
-            Due to the ongoing pandemic, we will be holding an intimate ceremony
-            in the presence of our immediate family and wedding party.
+            <div class="info--ceremony">
+              <p>
+                Due to the ongoing pandemic, we will be holding an intimate ceremony
+              in the presence of our immediate family and wedding party.
+              </p>
+              <p>
+              <b>
+              Our ceremony will be available to stream live through <a href="https://youtu.be/slmjtHKoYi0">this link.</a> 
+              &nbsp;In the case of technical difficulties, our videographers will be providing a backup link in this <a href="https://l8r.it/KhLc">shared document.</a> 
+              </b>
+              </p>
+              <p>
+              Please use the hashtag <b>#S&JWeddingDay</b> to share your photos with us through social media.
+              </p>
+            </div>
           </div>
           {/* <div>
           <img src="https://www.stpaulparish.ca/images/photos/st-paul-parish-20190504.jpg"></img>
@@ -67,14 +81,13 @@ function Info() {
           <h2 className="content-title">Other Details</h2>
 
           <h4 className="info--details">Attire</h4>
-          <div>Black Tie Optional</div>
+          <div>Semi-formal</div>
           <br />
 
           <h4 className="info--details">Colour Palette</h4>
           <span className="colour blush"></span>
           <span className="colour baby-blue"></span>
           <span className="colour navy"></span>
-          <span className="colour green"></span>
         </div>
       </div>
     </div>

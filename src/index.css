@@ -433,6 +433,10 @@ a {
   font-size: 1.5rem;
 }
 
+.info--ceremony {
+  padding: 0 20px;
+}
+
 .directions-link {
   text-transform: uppercase;
   font-weight: bold;
